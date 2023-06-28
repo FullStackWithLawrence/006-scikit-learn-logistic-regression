@@ -34,7 +34,13 @@ foo@bar:~$ pip install -r requirements.txt
 foo@bar:~$ python logistic-regression.py
 ```
 
-### Prerequisites, If You're New to Python
+### If You're New to Jupyter Notebooks
+
+There's an easy way to get Jupyter Notebooks working immediately, by downloading an application name [ANACONDA](https://www.anaconda.com/) that is freely available for both Windows and Mac.
+
+![Anaconda](https://github.com/FullStackWithLawrence/006-scikit-learn-logistic-regression/blob/main/doc/anaconda.png)
+
+### If You're New to Python
 
 Note that I created this code sample using Python version 3.10. For best results I'd recommend that you create a [Python Virtual Environment](https://docs.python.org/3/library/venv.html) based on a matching Python 3.10.x engine. This helps to ensure that you run the exact same Python package versions as I've specified in requirements.txt.
 

@@ -41,29 +41,35 @@ Note that I created this code sample using Python version 3.10. For best results
 If you starting from scratch then you might need to install Python on your computer, and you might also need to install a good installer. Crazy, and very meta, but yes, you might need to do that.
 
 ```console
-# check if homebrew is installed on your computer
+# 1. check if homebrew is installed on your computer
+# -------------------------------------
 foo@bar:~$ brew --version
 Homebrew 4.0.23
 Homebrew/homebrew-core (git revision 50877e2f6f7; last commit 2023-02-27)
 Homebrew/homebrew-cask (git revision cf17a964ec; last commit 2023-02-28)
 
-# 1. check if you've previously installed a python interpretter using homebrew
+# 2. check if you've previously installed a python interpretter using homebrew
+# -------------------------------------
 foo@bar:~$ brew list
 
-# 2. if you don't see python@3.10 in the output then install it now.
+# 3. if you don't see python@3.10 in the output then install it now.
+# -------------------------------------
 foo@bar:~$ brew install python@3.10
 
-# 3. verify that python3.10 is in your computer's search path
+# 4. verify that python3.10 is in your computer's search path
+# -------------------------------------
 foo@bar:~$ which python3.10
 /opt/homebrew/bin/python3.10
 
-# 4. create a Python Virtual Environment using python 3.10 as your interpretter
+# 5. create a Python Virtual Environment using python 3.10 as your interpretter
+# -------------------------------------
 foo@bar:~$ mkdir fullstackwithlawrence && cd fullstackwithlawrence
 foo@bar:~$ python3.10 -m venv venv
 foo@bar:~$ source venv/bin/activate
 
-# 5. verify that your Python virtual environment is activated, and
+# 6. verify that your Python virtual environment is activated, and
 # that it is using Python version 3.10.x
+# -------------------------------------
 foo@bar:~$ which python
 /Users/foo/fullstackwithlawrence/venv/bin/python3.10
 
@@ -74,7 +80,7 @@ Python 3.10.12
 
 ## Contributing
 
-Give back to the open source community! If you have good ideas for how to improve this code then seize. Fork this repo, make your changes, and then open a pull request, which you can do directly from Github.
+Give back to the open source community! If you have good ideas for how to improve this code then by all means, please seize the day and share your improvements by creating a pull request: fork this repo, make your changes, and then open a pull request; most of which can be done directly from Github.
 
 ### Local development
 

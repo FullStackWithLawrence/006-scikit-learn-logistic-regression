@@ -1,7 +1,16 @@
+#------------------------------------------------------------------------------
 #   installation:
 #        pip install -r requirements.txt
-pandas
-numpy
-matplotlib
+#------------------------------------------------------------------------------
+
+# base libraries. muck with these versions at your own risk.
+# the values are pinned to aprox 'latest stable' from aproximately
+# nov-2022.
+pandas==1.5.2
+numpy==1.24.0
+matplotlib==3.6.2
+
+# these run on top of pandas, numpy and matplotlib
+# so we'll allow pip to choose the best version for us.
 seaborn
 scikit-learn

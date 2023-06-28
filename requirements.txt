@@ -1,7 +1,5 @@
-"""
-installation:
-    pip install -r requirements.txt
-"""
+#   installation:
+#        pip install -r requirements.txt
 pandas
 numpy
 matplotlib

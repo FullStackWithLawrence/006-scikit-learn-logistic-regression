@@ -16,10 +16,9 @@ I'm providing this code sample in both native Python as well as Jupyter Notebook
 
 ### Jupyter Notebook
 
-I strongly recommend that you review the Jupyter notebook that is included in this repo. It includes a fully documented Jupyter notebook that provides **significantly** more explanation on ways to go about inspecting and analyzing your data set before attempting to create
-a model.
+I strongly recommend that you review the Jupyter notebook that is included in this repo. It provides **significantly** more explanation on ways to go about inspecting and analyzing your data set before attempting to create a model. Additionally, I've added a read-only copy of my output in html format which you can use as a guide, to better understand what the output of the Jupyter Notebook is supposed to look like.
 
-Additionally, I've added a read-only copy of my output in html format which you can use as a guide, to better understand what the output of the Jupyter Notebook is supposed to look like.
+Note that freely downloadable [VS Code](https://code.visualstudio.com/) natively renders Jupyter Notebooks from inside the code editor, which is a really convenient feature.
 
 ### Command Line
 

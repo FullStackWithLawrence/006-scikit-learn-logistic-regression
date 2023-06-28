@@ -36,7 +36,7 @@ foo@bar:~$ python logistic-regression.py
 
 ### If You're New to Jupyter Notebooks
 
-There's an easy way to get Jupyter Notebooks working immediately, by downloading an application named [Anaconda](https://www.anaconda.com/) that is freely available for both Windows and Mac.
+There's an easy way to get Jupyter Notebooks working immediately, by downloading an application named [Anaconda Navigator](https://www.anaconda.com/) that is freely available for both Windows and Mac.
 
 ![Anaconda](https://github.com/FullStackWithLawrence/006-scikit-learn-logistic-regression/blob/main/doc/anaconda.png)
 

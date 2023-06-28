@@ -27,7 +27,7 @@ foo@bar:~$ cd 006-scikit-learn-logistic-regression
 foo@bar:~$ pip install -r requirements.txt
 
 # run the  code from the command line
-python logistic-regression.py
+foo@bar:~$ python logistic-regression.py
 ```
 
 ## Prerequisites, If You're New to Python

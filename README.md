@@ -84,4 +84,4 @@ foo@bar:~$
 foo@bar:~$ pre-commit
 ```
 
-![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")
+![pre-commit output](https://github.com/FullStackWithLawrence/006-scikit-learn-logistic-regression/blob/main/doc/pre-commit.png)

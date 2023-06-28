@@ -12,14 +12,16 @@ This is the source code for FullStackWithLawrence Youtube Video -- "????".
 
 ## Usage
 
-### Jupyter Notebook Usage
+I'm providing this code sample in both native Python as well as Jupyter Notebook formats. They each service their own purpose. The Jupyter Notebook is more explanatory whereas the native Python is more illustrative of a real-world production implementation.
+
+### Jupyter Notebook
 
 I strongly recommend that you review the Jupyter notebook that is included in this repo. It includes a fully documented Jupyter notebook that provides **significantly** more explanation on ways to go about inspecting and analyzing your data set before attempting to create
 a model.
 
 Additionally, I've added a read-only copy of my output in html format which you can use as a guide, to better understand what the output of the Jupyter Notebook is supposed to look like.
 
-### Command Line Usage
+### Command Line
 
 The included Python module scaffolds the implemntation of a model that would ostensibly be used in a production setting. Be aware that accordingly, this module excludes all code for analysis, QC and corrections to the included data set.
 
@@ -75,6 +77,8 @@ Python 3.10.12
 Give back to the open source community! If you have good ideas for how to improve this code then seize. Fork this repo, make your changes, and then open a pull request, which you can do directly from Github.
 
 ### Local development
+
+This being the low budget one-man-band operation that it is, I'm reliant on the automated coding style enforcement and syntax checking capabilities of [pre-commit](https://pre-commit.com/), [black](https://pypi.org/project/black/) and [flake8](https://flake8.pycqa.org/), so you'll want to install these amazing tools **prior** to attempting a PR as I've also installed automated [Github Actions](https://github.com/features/actions) [CI](https://en.wikipedia.org/wiki/Continuous_integration) tools that will run these tests on all commits.
 
 ```console
 foo@bar:~$ pip install -r requirements-dev.txt

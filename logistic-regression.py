@@ -51,7 +51,13 @@ def metrics_score(actual, predicted):
 
 def prepare_data():
     """
-    Raw database transformations.
+    Raw database transformations:
+        - clean the data
+        - remove columns that don't contain any information
+        - recast data types as necessary
+        - convert categorical data into series of dummy columns
+        - split dependent / independent variables
+        - split training / test data sets
     """
     original_db = pd.read_csv(os.path.join(HERE, "data", "reservations-db.csv"))
 
@@ -81,21 +87,28 @@ def prepare_data():
 
 
 def main():
+    """
+    - create training and test data sets
+    - create a Logistic Regression model
+    - train the model
+    - generate confusion matrix and f-score for the training set
+    - generate confusion matrix and f-score for the test set
+    """
     x_train, x_test, y_train, y_test = prepare_data()
 
     # Fit a logistic regression model
-    lg = LogisticRegression()
-    lg.fit(x_train, y_train)
+    model = LogisticRegression()
+    model.fit(x_train, y_train)
 
     # Set the optimal threshold (refer to the Jupyter Notebook to see how we arrived at 42)
     optimal_threshold = 0.42
 
     # Create a confusion matrix for the training data
-    y_pred_train = lg.predict_proba(x_train)
+    y_pred_train = model.predict_proba(x_train)
     metrics_score(y_train, y_pred_train[:, 1] > optimal_threshold)
 
     # Create a confusion matrix for the test data
-    y_pred_test = lg.predict_proba(x_test)
+    y_pred_test = model.predict_proba(x_test)
     metrics_score(y_test, y_pred_test[:, 1] > optimal_threshold)
 
 

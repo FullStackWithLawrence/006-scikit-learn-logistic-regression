@@ -10,14 +10,16 @@ using Python with Pandas, MatPlotLib, Seaborn and Scikit Learn.
 
 This is the source code for FullStackWithLawrence Youtube Video -- "????".
 
-## Jupyter Notebook Usage
+## Usage
+
+### Jupyter Notebook Usage
 
 I strongly recommend that you review the Jupyter notebook that is included in this repo. It includes a fully documented Jupyter notebook that provides **significantly** more explanation on ways to go about inspecting and analyzing your data set before attempting to create
 a model.
 
 Additionally, I've added a read-only copy of my output in html format which you can use as a guide, to better understand what the output of the Jupyter Notebook is supposed to look like.
 
-## Command Line Usage
+### Command Line Usage
 
 The included Python module scaffolds the implemntation of a model that would ostensibly be used in a production setting. Be aware that accordingly, this module excludes all code for analysis, QC and corrections to the included data set.
 
@@ -30,7 +32,7 @@ foo@bar:~$ pip install -r requirements.txt
 foo@bar:~$ python logistic-regression.py
 ```
 
-## Prerequisites, If You're New to Python
+### Prerequisites, If You're New to Python
 
 Note that I created this code sample using Python version 3.10. For best results I'd recommend that you create a [Python Virtual Environment](https://docs.python.org/3/library/venv.html) based on a matching Python 3.10.x engine. This helps to ensure that you run the exact same Python package versions as I've specified in requirements.txt.
 
@@ -67,3 +69,19 @@ foo@bar:~$ python --version
 Python 3.10.12
 
 ```
+
+## Contributing
+
+Give back to the open source community! If you have good ideas for how to improve this code then seize. Fork this repo, make your changes, and then open a pull request, which you can do directly from Github.
+
+### Local development
+
+```console
+foo@bar:~$ pip install -r requirements-dev.txt
+foo@bar:~$ pre-commit install
+pre-commit installed at .git/hooks/pre-commit
+foo@bar:~$ 
+foo@bar:~$ pre-commit
+```
+
+![Alt text](https://assets.digitalocean.com/articles/alligator/boo.svg "a title")

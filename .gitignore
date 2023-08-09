@@ -1,6 +1,9 @@
 .DS_Store
 .ipynb_checkpoints
 
+._Logistic_Regression_Notebook.html
+._Logistic_Regression_Notebook.ipynb
+
 .env
 # .gitignore for edx-platform.
 # There's a lot here, please try to keep it organized.

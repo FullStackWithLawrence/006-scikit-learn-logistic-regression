@@ -16,8 +16,8 @@ I'm providing this code sample in both native Python as well as Jupyter Notebook
 
 ### Quickstart
 
-![Jupyter-1](https://github.com/FullStackWithLawrence/006-scikit-learn-logistic-regression/blob/main/doc/jupyter-1.png)
 ![Jupyter-2](https://github.com/FullStackWithLawrence/006-scikit-learn-logistic-regression/blob/main/doc/jupyter-2.png)
+![Jupyter-1](https://github.com/FullStackWithLawrence/006-scikit-learn-logistic-regression/blob/main/doc/jupyter-1.png)
 
 ### Output
 

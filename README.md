@@ -14,6 +14,21 @@ This is the source code for FullStackWithLawrence Youtube Video -- "????".
 
 I'm providing this code sample in both native Python as well as Jupyter Notebook formats. They each service their own purpose. The Jupyter Notebook is more explanatory whereas the native Python is more illustrative of a real-world production implementation.
 
+### Quickstart
+
+![Jupyter-1](https://github.com/FullStackWithLawrence/006-scikit-learn-logistic-regression/blob/main/doc/jupyter-1.png)
+![Jupyter-2](https://github.com/FullStackWithLawrence/006-scikit-learn-logistic-regression/blob/main/doc/jupyter-2.png)
+
+### Output
+
+Includes sample code for generating a variety of commonly needed data visualations for understanding your data, your model and your model's prediction accuracy.
+
+![Heatmap](https://github.com/FullStackWithLawrence/006-scikit-learn-logistic-regression/blob/main/doc/heatmap.png)
+
+![boxplot](https://github.com/FullStackWithLawrence/006-scikit-learn-logistic-regression/blob/main/doc/boxplot.png)
+
+![confusion-matrix](https://github.com/FullStackWithLawrence/006-scikit-learn-logistic-regression/blob/main/doc/confusion-matrix.png)
+
 ### Jupyter Notebook
 
 I strongly recommend that you review the Jupyter notebook that is included in this repo. It provides **significantly** more explanation on ways to go about inspecting and analyzing your data set before attempting to create a model. Additionally, I've added a read-only copy of my output in html format which you can use as a guide, to better understand what the output of the Jupyter Notebook is supposed to look like.

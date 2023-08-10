@@ -9,6 +9,7 @@ A simple example of how to setup a Logistic Regression predictive model
 using Python with Pandas, MatPlotLib, Seaborn and Scikit Learn.
 
 This is the source code for FullStackWithLawrence Youtube Video -- "????".
+[![YouTube](https://github.com/FullStackWithLawrence/006-scikit-learn-logistic-regression/blob/main/doc/thumbnail.png)](https://youtu.be/MPzaHnKq-VY)
 
 ## Usage
 
